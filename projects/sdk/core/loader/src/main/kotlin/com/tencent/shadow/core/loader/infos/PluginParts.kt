@@ -27,5 +27,6 @@ class PluginParts(val application: ShadowApplication,
                   val classLoader: PluginClassLoader,
                   val resources: Resources,
                   val businessName: String?,
-                  val pluginPackageManager: PluginPackageManager
+                  val pluginPackageManager: PluginPackageManager,
+                  val apkPath: String
 )
